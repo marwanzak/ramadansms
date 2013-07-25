@@ -1,0 +1,75 @@
+<Alloy>
+	<Window class="container">
+		<Button id = "sms1_but">
+			رسائل تهنئة
+		</Button>
+		<Button id = "sms2_but">
+			رسائل دعوية
+		</Button>
+	</Window>
+	<Window id="sms1_win" class="sms_container">
+		<!--<View id="loading_view"></View>-->
+		<View class="top_container">
+			<View id="top_view1" class="top_view">
+				<View class="left_top" id="sms_2_but">
+					<Label id="left_top1" text="رسائل دعوية">
+						رسائل دعوية
+					</Label>
+				</View>
+				<View class="right_top" id="sms_1_but">
+					<Label id="right_top1" text="رسائل تهنئة">
+						رسائل تهنئة
+					</Label>>
+				</View>
+			</View>
+			<View id="search_view" class="search_view">
+				<View class="search_text">
+					<TextArea id="search_text1" >
+					</TextArea>
+				</View>
+				<View class="search_but">
+					<Label>
+						بحث
+					</Label>
+				</View>
+			</View>
+		</View>
+		<View class="scroll_view1" id="scroll_container1">
+			<ScrollView id="scroll_view1">
+			</ScrollView>
+		</View>
+		<View class="scroll_view1" id="scroll_container2">
+			<ScrollView id="scroll_view2">
+			</ScrollView>
+		</View>
+		<View class="bottom_view" id="bottom_view1">
+			<View class="left_bottom" id="left_bottom1">
+				<Label>
+					شمال
+				</Label>
+			</View>
+			<View class="right_bottom" id="right_bottom">
+				<Label>
+					عودة
+				</Label>
+			</View>
+		</View>
+	</Window>
+	<Window id="favourite_win">
+		<View id="fav_top_view">
+			<Label id="fab_label">الرسائل المفضلة</Label>
+		</View>
+		<View id="fav_scroll_container">
+			<ScrollView id="fav_scroll">
+			</ScrollView>
+		</View>
+		<View id="fav_bottom_view">
+			<View id="fav_bottom_left">
+				عودة
+			</View>
+			<View id="fav_bottom_right">
+				برامج أخرى
+			</View>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,163 @@
+"label":{
+	font:{
+		fontSize: "20dp"
+	}
+},
+".container": {
+	fullscreen: true,
+	backgroundColor: "#fff",
+	backgroundImage: "back.png",
+	navBarHidden: true
+},
+".sms_container":{
+	fullscreen: true,
+	backgroundColor: "#fff",
+	backgroundImage: "back.png",
+	navBarHidden: true
+},
+"#loading_view":{
+	backgroundColor: "#333",
+	width: "150dp",
+	height: "50dp",
+	borderWidth: "1dp",
+	borderRadius: "4",
+	borderColor: "#eee"
+},
+".scroll_view1":{
+	width: Ti.UI.FILL,
+	borderWidth: "2dp",
+	borderColor: "#ff0",
+	height: "70%",
+	bottom: "10%"
+},
+"#favourite_win":{
+	fullscreen:true,
+	backgroundColor:"#fff",
+	navBarHidden:true
+},
+"#fav_scroll":{
+	width: Ti.UI.FILL,
+	borderWidth: "2dp",
+	borderColor: "#ff0",
+	height: "80%",
+	bottom: "10%",
+	layout:"vertical"
+},
+"#fav_top_view":{
+	width: Ti.UI.FILL,
+	height: "10%",
+	borderWidth: "2dp",
+	borderColor: "#fff",
+	top:0
+},
+"#fav_bottom_view":{
+	width: Ti.UI.FILL,
+	height: "10%",
+	borderWidth: "2dp",
+	borderColor: "#fff",
+	bottom:0
+},
+"#fav_bottom_left":{
+	left: 0,
+	width: "50%",
+	borderWidth: "2dp",
+	borderColor: "#f0f"
+},
+"#fav_bottom_right":{
+	right: 0,
+	width: "50%",
+	borderWidth: "2dp",
+	borderColor: "#f00"
+},
+"#scroll_view1":{
+	layout: "vertical"
+},
+"#scroll_view2":{
+	layout: "vertical"
+},
+".scroll_view2":{
+	width: Ti.UI.FILL,
+	borderWidth: "2dp",
+	borderColor: "#fff",
+	height: "35%",
+	bottom: "10%"
+},
+".scroll_view_parent":{
+	width: Ti.UI.FILL,
+	height: "70%",
+	borderWidth: "2dp",
+	borderColor: "#000"
+},
+".search_view":{
+	width: Ti.UI.FILL,
+	height: "10%",
+	layout: "horizontal",
+	borderWidth: "2dp",
+	borderColor: "#00f"
+},
+".top_container":{
+	top: 0,
+	layout: "vertical",
+	borderWidth: "2dp",
+	borderColor: "#ffc"
+},
+".bottom_view":{
+	bottom: "0",
+	width: Ti.UI.FILL,
+	height: "10%",
+	layout: "horizontal",
+	borderWidth: "2dp",
+	borderColor: "#f0f"
+},
+".top_view":{
+	width: Ti.UI.FILL,
+	height: "10%",
+	layout: "horizontal",
+	borderWidth: "2dp",
+	borderColor: "#fff"
+},
+".left_top":{
+	left: 0,
+	width: "50%"
+},
+".right_top":{
+	right: 0,
+	width: "50%",
+	borderWidth: "2dp",
+	borderColor: "#f0f"
+},
+".search_but":{
+	left: 0,
+	width: "30%",
+	borderWidth: "2dp",
+	borderColor: "#f0f"
+},
+".search_text":{
+	width: "70%",
+	right: 0,
+	borderWidth: "2dp",
+	borderColor: "#f0f"
+},
+"#search_text1":{
+	width: Ti.UI.FILL
+},
+".left_bottom":{
+	left: 0,
+	width: "50%",
+	borderWidth: "2dp",
+	borderColor: "#f0f"
+},
+".right_bottom":{
+	right: 0,
+	width: "50%",
+	borderWidth: "2dp",
+	borderColor: "#f0f"
+},
+"#sms1_but": {
+	top: "10dp",
+	left: "30dp"
+},
+"#sms2_but":{
+	top: "10dp",
+	left: "200dp"
+}

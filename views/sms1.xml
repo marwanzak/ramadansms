@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" id = "sms1_win">
+		<Button>Nothing</Button>
+	</Window>
+</Alloy>
